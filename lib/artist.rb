@@ -22,9 +22,6 @@ class Artist
     Song.all.size
   end
 
-  def artist_name
-    @name == nil ? nil : @name.name
-
-  end
+  
 
 end
